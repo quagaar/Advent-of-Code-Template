@@ -1,3 +1,7 @@
 [template]
 sub_template = ["day"]
 ignore = ["day"]
+
+[placeholders.aocyear]
+type = "string"
+prompt = "What year does it relate to?"
