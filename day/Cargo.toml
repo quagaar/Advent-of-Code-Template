@@ -13,6 +13,7 @@ name = "{{project-name}}"
 test = false
 
 [dependencies]
+runner = { path = "../utils/runner" }
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
