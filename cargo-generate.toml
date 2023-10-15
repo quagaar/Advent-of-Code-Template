@@ -1,2 +1,3 @@
 [template]
 sub_template = ["day"]
+ignore = ["day"]
