@@ -1,5 +1,5 @@
 [package]
-name = "{{project_name}}"
+name = "{{project-name}}"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,7 +9,7 @@ edition = "2021"
 doctest = false
 
 [[bin]]
-name = "{{project_name}}"
+name = "{{project-name}}"
 test = false
 
 [dependencies]
