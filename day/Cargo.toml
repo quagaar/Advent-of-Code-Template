@@ -17,6 +17,7 @@ runner = { path = "../utils/runner" }
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
+bencher = { path = "../utils/bencher" }
 
 [[bench]]
 name = "benchmark"
