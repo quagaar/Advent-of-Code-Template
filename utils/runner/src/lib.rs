@@ -1,8 +1,12 @@
 use std::env;
 
-pub fn run_solvers<R>(solver1: impl FnOnce(&str) -> R, solver2: impl FnOnce(&str) -> R, input: &str)
-where
-    R: std::fmt::Debug,
+pub fn run_solvers<R1, R2>(
+    solver1: impl FnOnce(&str) -> R1,
+    solver2: impl FnOnce(&str) -> R2,
+    input: &str,
+) where
+    R1: std::fmt::Debug,
+    R2: std::fmt::Debug,
 {
     let args: Vec<String> = env::args().collect();
     if let Some(s) = args.get(1) {
