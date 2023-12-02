@@ -20,18 +20,21 @@ mod tests {
     }
 
     #[test]
+    #[ignore = "not done yet"]
     fn part1_result() {
         let result = solve_part1(INPUT);
         assert_eq!(result, 42);
     }
 
     #[test]
+    #[ignore = "not done yet"]
     fn part2_example() {
         let result = solve_part2(EXAMPLE);
         assert_eq!(result, 42);
     }
 
     #[test]
+    #[ignore = "not done yet"]
     fn part2_result() {
         let result = solve_part2(INPUT);
         assert_eq!(result, 42);
