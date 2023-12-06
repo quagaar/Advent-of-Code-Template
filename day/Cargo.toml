@@ -16,7 +16,7 @@ test = false
 runner = { path = "../utils/runner" }
 
 [dev-dependencies]
-criterion = { version = "0.5.1", features = ["html_reports"] }
+criterion = { workspace = true }
 bencher = { path = "../utils/bencher" }
 
 [[bench]]
