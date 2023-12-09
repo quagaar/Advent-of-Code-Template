@@ -1,6 +1,6 @@
-use {{crate_name}}::{solve_part1, solve_part2, INPUT};
+use {{crate_name}}::{part1, part2, INPUT};
 use runner::run_solvers;
 
 fn main() {
-    run_solvers(solve_part1, solve_part2, INPUT);
+    run_solvers(part1::solve, part2::solve, INPUT);
 }

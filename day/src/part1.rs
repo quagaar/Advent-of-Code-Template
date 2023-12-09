@@ -1,4 +1,4 @@
-pub fn solve_part1(input: &str) -> usize {
+pub fn solve(input: &str) -> usize {
     input.lines().count()
 }
 
@@ -11,14 +11,14 @@ mod tests {
 
     #[test]
     fn example() {
-        let result = solve_part1(EXAMPLE);
+        let result = solve(EXAMPLE);
         assert_eq!(result, 42);
     }
 
     #[test]
     #[ignore = "not done yet"]
     fn result() {
-        let result = solve_part1(INPUT);
+        let result = solve(INPUT);
         assert_eq!(result, 42);
     }
 }
