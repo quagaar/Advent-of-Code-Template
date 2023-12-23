@@ -1,4 +1,4 @@
-use criterion::{criterion_group, criterion_main, Criterion};
+use criterion::{black_box, criterion_group, criterion_main, Criterion};
 use {{crate_name}}::{part1, part2, INPUT};
 
 fn criterion_benchmark(c: &mut Criterion) {
