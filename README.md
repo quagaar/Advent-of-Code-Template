@@ -4,13 +4,11 @@ My [Advent of Code {{aocyear}}](https://adventofcode.com/{{aocyear}}) solutions 
 
 ## Running the Code
 
-To run the code for a given day use the following command:
+To run the code for a given day use the following commands:
 
-`cargo run -r -p day12`
+`cargo run -r -p day12 --bin part1`
 
-You can restrict it to just running part 1 or 2 by adding the part number as a command argument
-
-`cargo run -r -p day12 -- 2`
+`cargo run -r -p day12 --bin part2`
 
 ## Running Unit Tests
 

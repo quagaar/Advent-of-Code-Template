@@ -8,12 +8,7 @@ edition = "2021"
 [lib]
 doctest = false
 
-[[bin]]
-name = "{{project-name}}"
-test = false
-
 [dependencies]
-runner = { path = "../utils/runner" }
 
 [dev-dependencies]
 criterion = { workspace = true }

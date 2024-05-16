@@ -4,7 +4,6 @@ pub fn solve(input: &str) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use super::super::INPUT;
     use super::*;
 
     const EXAMPLE: &str = include_str!("../example.txt");
@@ -15,10 +14,12 @@ mod tests {
         assert_eq!(result, 42);
     }
 
+    #[cfg(input_txt)]
+    #[cfg(part1_txt)]
     #[test]
-    #[ignore = "not done yet"]
     fn result() {
-        let result = solve(INPUT);
-        assert_eq!(result, 42);
+        let expected = include_str!("../part1.txt").trim().parse().unwrap();
+        let result = solve(super::super::INPUT);
+        assert_eq!(result, expected);
     }
 }
