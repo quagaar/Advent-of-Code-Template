@@ -1,4 +1,5 @@
-use criterion::{black_box, criterion_group, criterion_main, Criterion};
+use criterion::{criterion_group, criterion_main, Criterion};
+use std::hint::black_box;
 use {{crate_name}}::{part1, part2, INPUT};
 
 fn criterion_benchmark(c: &mut Criterion) {
